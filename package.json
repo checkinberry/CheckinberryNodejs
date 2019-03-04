@@ -1,0 +1,24 @@
+{
+  "name": "backend-chekin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src\\index.js",
+    "dev": "nodemon src\\index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "libnmap": "^0.4.16",
+    "mongoose": "^5.4.17",
+    "morgan": "^1.9.1",
+    "node-nmap": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
