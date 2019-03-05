@@ -14,7 +14,7 @@ To test this code you should do the following:
 
 First of all you would have to install node.js. The following link will take you to a page to download and install it:
 
-	[node.js](https://nodejs.org/en/) - JavaScript runtime built
+	* [node.js](https://nodejs.org/en/) - JavaScript runtime built
 	
 ### Clone repository
 	
@@ -23,6 +23,7 @@ We will download this project from the repository.
 ### Move to folder
 
 Now we will open the terminal and you will be placed in the folder of the project that you just downloaded.
+
 	```
 	cd [folder path]
 	```
