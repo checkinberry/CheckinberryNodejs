@@ -13,7 +13,8 @@ To test this code you should do the following:
 ### Install node.js
 
 First of all you would have to install node.js. The following link will take you to a page to download and install it:
-	* [node.js](https://nodejs.org/en/) - JavaScript runtime built
+
+	[node.js](https://nodejs.org/en/) - JavaScript runtime built
 	
 ### Clone repository
 	
@@ -29,9 +30,9 @@ Now we will open the terminal and you will be placed in the folder of the projec
 
 Once positioned in the folder of our project we will execute the following command:
 
-	```
+	
 	npm install
-	```
+	
 	
 To download the modules used by this project.
    
@@ -39,9 +40,9 @@ To download the modules used by this project.
    
 We will have created a folder called node-modules. Then in the terminal, on the project folder we will execute the following command:
 
-	```
+	
 	npm run dev
-	```
+	
 	
 This will launch the express server.
    
