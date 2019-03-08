@@ -10,20 +10,20 @@ router.get('/', async (req, res) =>{
 
 router.post('/', async (req, res)=>{
     const { name, mac } = req.body;
-    const usersaved = new user({name, mac});
+    const userSaved = new user({name, mac});
 
     var encontrado = false;
-    const alluser = await user.find();
+    const allUser = await user.find();
 
-    for(i = 0; i<alluser.length; i++){
-        if(usersaved.mac == alluser[i].mac){
+    for(i = 0; i<allUser.length; i++){
+        if(userSaved.mac == allUser[i].mac){
             encontrado = true;
             break;
         }
     }
 
     if(!encontrado){
-        await usersaved.save();
+        await userSaved.save();
         res.json({status: 'user saved'});
     }
     else{
